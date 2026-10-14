@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and trained models (regenerate with train.py)
+*/data/*.csv
+*/model/
+*.joblib
+
+# Gradio / OS / IDE
+flagged/
+.gradio/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
